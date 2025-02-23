@@ -1,0 +1,28 @@
+header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    h1 {
+      margin: 0;
+      font-size: 1.75rem;
+    }
+  
+    p-inputText {
+      width: 50%;
+    }
+  
+    .quote {
+      font-style: italic;
+      font-size: 1rem;
+    }
+  }
+  
