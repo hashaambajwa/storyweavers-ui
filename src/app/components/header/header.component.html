@@ -1,1 +1,14 @@
-<p>header works!</p>
+<header>
+    <div class="header-container">
+      <h1>{{ title }}</h1>
+  
+      <p-tabMenu [model]="navLinks.map(label => ({ label }))"></p-tabMenu>
+  
+      <p-inputText type="text" placeholder="Search..." />
+  
+      <div class="quote">
+        <p>{{ randomQuote }}</p>
+      </div>
+    </div>
+  </header>
+  
