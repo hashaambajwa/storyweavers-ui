@@ -8,10 +8,12 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   username: string = '';
   password: string = '';
+  statusMessage: string = '';
 
   login() {
-    console.log('Logging in with:', this.username, this.password);
-    // Add authentication logic here later
+    // This is a UI prototype. Never log or submit credentials until a
+    // real authenticated backend and transport are implemented.
+    this.password = '';
+    this.statusMessage = 'Login is not available in this prototype.';
   }
 }
-
